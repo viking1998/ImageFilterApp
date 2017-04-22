@@ -31,5 +31,3 @@ HEADERS  += mainwindow.h \
     imagesharpener.h
 
 FORMS    += mainwindow.ui
-
-LIBS += -LD:\Qt\5.7\mingw53_32\lib\libQt5Cored.a -lQt5Cored

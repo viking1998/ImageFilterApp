@@ -20,9 +20,13 @@ public:
 
 private slots:
 
-    void on_loadButton_clicked();
-
     void on_filterButton_clicked();
+
+    void on_actionOpen_triggered();
+
+    void on_actionSave_as_triggered();
+
+    void on_changeFilteringButton_clicked();
 
 private:
     Ui::MainWindow *ui;
